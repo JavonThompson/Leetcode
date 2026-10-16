@@ -7,10 +7,9 @@ public class StackExample {
         names.push("Apple");
         names.push("Banana");
         names.push("Cherry");
-        names.push("Date");
-        names.push("Elderberry");
+        names.push("Pineapple");
+        names.push("Grape");
 
-        System.out.println("Printing the stack:");
         while (!names.isEmpty()) {
             System.out.println(names.pop());
         }
